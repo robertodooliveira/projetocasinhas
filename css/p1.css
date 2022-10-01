@@ -1,6 +1,7 @@
 @charset  "UTF-8";
 /*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
 @font-face{
     font-family: 'Android';
     src:url('../fontes/idroid.otf') format('opentype');font-weight: normal;
@@ -16,7 +17,7 @@
     --font-padrao: Arial, Verdana, Helvetica,sans-serif;
     --font-destaque: 'Akaya Kanadaka', cursive;
     --font-android: 'Android', cursive;
-
+    --font-titulo: 'Henny Penny', cursive;
 
 
 }
@@ -39,15 +40,17 @@ header{
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
-    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    background: url( ../img/pexels-david-mcbee-1546168.jpg) no-repeat;
+    background-size: cover;
+    background-position: center bottom;
 }
 header>h1{
-    color:white;
-    font-family: var(--font-destaque);
+    color:rgb(255, 255, 255);
+    font-family: var(--font-titulo);
  margin-bottom: 20px;
  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267) ;
- font-weight: normal;
- font-size: 1.8;
+ font-weight: bolder;
+ font-size: 2em;
 }
 header > p{
     color: white;
@@ -63,12 +66,12 @@ header > p{
 
 }
 nav{
-    background-color: var(--cor5);
+    
     padding: 10px;
     box-shadow: 0px  7px 7px rgba(0, 0, 0, 0.37);
 }
 nav > a{
-    color: var(--cor1);
+    color: white;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
