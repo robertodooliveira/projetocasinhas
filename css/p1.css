@@ -7,7 +7,7 @@
     src:url('../fontes/idroid.otf') format('opentype');font-weight: normal;
 }
 :root{
-    --cor0: #0F66D6;
+    --cor0: #878787;
     --cor1: #054FAE;    /* como declarar variaveis*/
     --cor2: #2F17DA ;
     --cor3: #1D08B7;
@@ -40,17 +40,19 @@ header{
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
-    background: url( ../img/pexels-david-mcbee-1546168.jpg) no-repeat;
+    background: url( ../img/Implantação-Geral.jpg) no-repeat;
     background-size: cover;
     background-position: center bottom;
 }
 header>h1{
-    color:rgb(255, 255, 255);
+    color:white;
     font-family: var(--font-titulo);
  margin-bottom: 20px;
- text-shadow: 5px 5px 2px rgb(21, 49, 175) ;
+ text-shadow: 5px 5px 2px rgb(14, 34, 122) ;
  font-weight: bolder;
  font-size: 2em;
+ background-color:#87878781;
+ 
 }
 header > p{
     color: white;
@@ -61,7 +63,7 @@ header > p{
    margin: auto;
    margin-bottom: 20px;
     font-family:var(--font-padrao) ;
-    text-shadow: 2px 2px 2px rgb(0, 0, 0) ;
+    text-shadow: 2px 3px 0px rgb(0, 0, 0) ;
 
 
 }
