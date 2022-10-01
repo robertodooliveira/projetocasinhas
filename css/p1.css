@@ -48,20 +48,20 @@ header>h1{
     color:rgb(255, 255, 255);
     font-family: var(--font-titulo);
  margin-bottom: 20px;
- text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267) ;
+ text-shadow: 5px 5px 2px rgb(21, 49, 175) ;
  font-weight: bolder;
  font-size: 2em;
 }
 header > p{
     color: white;
-    font-size: 1.2em;
+    font-size: 1.4em;
    max-width: 600;
    padding-right: 10px;
    padding-left: 10px;
    margin: auto;
    margin-bottom: 20px;
     font-family:var(--font-padrao) ;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.329) ;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0) ;
 
 
 }
