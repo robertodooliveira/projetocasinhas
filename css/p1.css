@@ -63,7 +63,7 @@ header > p{
    margin: auto;
    margin-bottom: 20px;
     font-family:var(--font-padrao) ;
-    text-shadow: 2px 3px 0px rgb(0, 0, 0) ;
+    text-shadow: 4px 4px 0px rgb(0, 0, 0) ;
 
 
 }
@@ -152,7 +152,7 @@ main strong{
 main a{
     text-decoration: none;
     color: var(--cor5);
-    background-color: var(--cor1);
+    background-color: lightgrey;
     padding: 2px 6 px;
     font-weight: bold;
     
