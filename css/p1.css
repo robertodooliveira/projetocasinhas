@@ -55,7 +55,7 @@ header>h1{
  
 }
 header > p{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 1.2em;
    max-width: 600;
    padding-right: 10px;
@@ -63,7 +63,7 @@ header > p{
    margin: auto;
    margin-bottom: 20px;
     font-family:var(--font-padrao) ;
-    text-shadow: 4px 4px 0px rgb(0, 0, 0) ;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0) ;
 
 
 }
