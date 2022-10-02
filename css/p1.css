@@ -65,7 +65,7 @@ header > p{
     font-family:var(--font-padrao) ;
     text-shadow: 2px 2px 0px rgb(0, 0, 0) ;
     font-weight: bolder;
-
+    background-color:#87878791;
 
 }
 nav{
